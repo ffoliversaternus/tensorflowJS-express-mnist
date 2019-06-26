@@ -1,7 +1,8 @@
 # tensorflowJS-express-mnist
 An example project for using tensorflowJS with a express web server.
 
-![Screnshot](screenshot.png?raw=true "Test the prediction interactively")
+Test the Prediction-model interactively
+![Screnshot](screenshot.png?raw=true)
 
 # getting started
 - install nodeJS and npm from official website https://nodejs.org/en/download/
