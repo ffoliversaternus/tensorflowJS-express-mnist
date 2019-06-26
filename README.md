@@ -19,7 +19,7 @@ To start training run one of these commands
 
 Note:
 You may experience a "heap out of memory error" when starting a training with mnist. This is because all the MNIST data gets loaded into memory at once, which exceeds node's default memory limit of 1 GB. You can simply give node access to more memory like:
-    - node --max-old-space-size=2048 minst.js
+   - node --max-old-space-size=2048 minst.js
 
 
 ## project description
