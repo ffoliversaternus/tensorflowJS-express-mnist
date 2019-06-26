@@ -18,4 +18,5 @@ Except from the nodeJS standard files and directories this project contains:
 - mnist.js - this file trains a feedworward neural network to recognize handwritten digits, with the MNIST data.
 - convolutional-mnist.js - this file trains a convolutional neural network to recognize handwritten digits, with the MNIST data.
 - maximum.js - this file trains a feedworward neural network to recognize the index of the maximum value of an array. The training data is generated automatically.
+- canvas.html - this file is the frontend, that the server serves. It contains a drawable canvas and javascript functions, that translate the canvas-bitmap to an appropriate array and reshape it (centering of the image regarding it's center of mass). A function that sends this data within a http-request to localhost:3000/api/predict is called every 5 seconds.
 
