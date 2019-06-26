@@ -8,8 +8,8 @@ An example project for using tensorflowJS with a express web server and a HTML f
 - clone project
 - open terminal and cd in project root folder
 - execute:
-    -npm i
-    -node server.js
+    - npm i
+    - node server.js
 - with your browser navigate to localhost:3000
 
 To start training run one of:
