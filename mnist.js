@@ -76,7 +76,7 @@ async function testMNIST(testData) {
             errorCount += 1;
         }
     }
-    console.log(errorCount + ' errors, ' + (errorCount / 100) + '% error rate');
+    console.log(errorCount + ' errors, ' + (errorCount * 100 / output.length) + '% error rate');
 }
 
 // main function to run the script asynchronously
